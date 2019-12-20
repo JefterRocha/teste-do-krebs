@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	if messages
+		ul.list-group
+			each message in messages
+				.list-group-item(class=`list-group-item-${alertType}`)= message.msg
+	form.d-flex.mt-5(method='POST')
+		
+		div.form-group.w-100
+			label(for='taskContent') Type your task content here:
+			textarea#taskContent.form-control(name='taskContent' rows='3')
+			button.btn.btn-primary.mt-3.float-right(type='submit') Create task

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width initial-scale=1.0')
+		meta(http-equiv='X-UA-Compatible' content='ie=edge')
+		title= title
+		link(rel='stylesheet' href='/stylesheets/bootstrap/bootstrap.min.css')
+		link(rel='stylesheet' href='/stylesheets/style.css')
+		script(type='text/javascript' src='https://kit.fontawesome.com/e72e859a9c.js' crossorigin='anonymous')
+	body
+		.container-fluid.p-0
+			header.bg-danger
+				.container.p-0
+					nav.navbar.navbar-expand-lg.navbar-dark
+						a.navbar-brand(href='#')
+							i.fas.fa-tasks
+						button.navbar-toggler(
+							type='button'
+							data-toggle='collapse'
+							data-target='#navbarSupportedContent'
+							aria-controls='navbarSupportedContent'
+							aria-expanded='false'
+							aria-label='Toggle navigation'
+						)
+							span.navbar-toggler-icon
+
+						#navbarSupportedContent.collapse.navbar-collapse 
+							ul.navbar-nav.mr-auto 
+								li.nav-item 
+									a.nav-link(href='/') Home
+									span.sr-only (current)
+								
+								li.nav-item 
+									a.nav-link(href='/add-task') Add task
+
+			.container.bg-light.border.rounded.mw-75.mt-5.pt-sm-3
+				h2.text-center= screenTitle
+				block content
+
+		script(type='text/javascript' src='/javascripts/jquery-3.4.1.min.js')
+		script(type='text/javascript' src='/javascripts/popper.min.js')
+		script(type='text/javascript' src='/javascripts/bootstrap/bootstrap.min.js')
+		script(type='text/javascript' src='/javascripts/custom.js')
