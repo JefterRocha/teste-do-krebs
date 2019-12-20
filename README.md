@@ -14,6 +14,7 @@ $ npm i
 ```
 
 ### Running your application
+Maybe you need to set HOST and PORT por env.
 Run your application using npm:
 ```bash
 $ npm start
