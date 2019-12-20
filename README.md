@@ -1,5 +1,5 @@
 # teste-do-krebs
-A Pokemon Manager System
+A Task Manager System
 
 This is a simple task manager system built with Nodejs, Express and Jade/Pug to you list, add, and remove your tasks!
 
