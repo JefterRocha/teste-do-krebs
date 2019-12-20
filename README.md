@@ -11,7 +11,6 @@ This is a simple task manager system built with Nodejs, Express and Jade/Pug to 
 ```bash
 $ git clone https://github.com/JefterRocha/teste-do-krebs.git
 $ npm i
-$ mongod --dbpath your_path/data/db
 ```
 
 ### Running your application
