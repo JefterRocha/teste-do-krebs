@@ -18,9 +18,8 @@ Run your application using npm:
 ```bash
 $ npm start
 ```
-![Screenshot](https://i.imgur.com/7WgHv8e.png)
-
 After the server start, you can access your application on <http://localhost:3000>.
+![Screenshot](https://i.imgur.com/7WgHv8e.png)
 
 ## License
 [The MIT License](https://github.com/JefterRocha/teste-do-krebs/blob/master/LICENSE)
